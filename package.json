@@ -1,6 +1,6 @@
 {
   "name": "subtranslator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "you can translate your subtitles for movies or series",
   "main": "index.js",
   "scripts": {
