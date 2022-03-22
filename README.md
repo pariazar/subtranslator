@@ -21,7 +21,7 @@ Translate subtitle files with calling below function,
 this function can detect subtitle language and you can select target language as third parameter.
 
 ```js
-const subtranslator </td> require('subtranslator');
+const subtranslator = require('subtranslator');
 
 subtranslator.translate('mr.bean.srt','translated.srt','en');
 ```
