@@ -1,4 +1,7 @@
 # subtranslator
+[![npm](https://img.shields.io/npm/v/subtranslator.svg?style=flat-square)](https://www.npmjs.com/package/subtranslator)
+
+
 npm package that you can translate your subtitles files.
 
 ![alt text](https://github.com/hamedpa/subtranslator/blob/master/img/logo.png?raw</td>true)
