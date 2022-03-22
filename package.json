@@ -1,0 +1,44 @@
+{
+  "name": "subtranslator",
+  "version": "1.0.0",
+  "description": "you can translate your subtitles for movies or series",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "author": "hamedPa",
+  "engines": {
+    "node": ">4.0"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/hamedpa/subtranslator",
+  "contributors": [
+    {
+      "name": "HamedPa",
+      "email": "hamedpa21@gmail.com",
+      "url": "https://github.com/hamedpa"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/hamedpa/subtranslator/issues/new"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hamedpa/subtranslator"
+  },
+  "dependencies": {
+    "@vitalets/google-translate-api": "^7.0.0",
+    "cli-progress": "^3.10.0",
+    "es6-promise-pool": "^2.5.0",
+    "fs": "^0.0.1-security",
+    "p-limit": "^4.0.0"
+  },
+  "keywords": [
+    "subtitle",
+    "translate",
+    "movies",
+    "series",
+    "subtranslate"
+  ]
+    
+}
