@@ -2,7 +2,7 @@ const fs = require('fs');
 const cliProgress = require('cli-progress');
 const translate = require('@vitalets/google-translate-api');
 
-exports.translate = async (fileInput,fileOutput) => {
+exports.translate = async (fileInput,fileOutput,language) => {
     const bar1 = new cliProgress.SingleBar({}, cliProgress.Presets.shades_classic);
     
     try {
@@ -25,7 +25,7 @@ exports.translate = async (fileInput,fileOutput) => {
             originalArr.push(sourceTxt[i]);
 
             if(i!=0 &&(i%100)==0){
-                const translatedText = await (await translate(tmpArr.join(' * '), {to: 'en'})).text;
+                const translatedText = await (await translate(tmpArr.join(' * '), {to: language})).text;
                 const translatedTextArr = translatedText.split(' * ');
                 for (let index = 0; index < translatedTextArr.length; index++) {
                     const obj = {};
