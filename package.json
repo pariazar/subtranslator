@@ -6,25 +6,25 @@
   "scripts": {
     "start": "node index"
   },
-  "author": "hamedPa",
+  "author": "pariazar",
   "engines": {
     "node": ">4.0"
   },
   "license": "MIT",
-  "homepage": "https://github.com/hamedpa/subtranslator",
+  "homepage": "https://github.com/pariazar/subtranslator",
   "contributors": [
     {
-      "name": "HamedPa",
-      "email": "hamedpa21@gmail.com",
-      "url": "https://github.com/hamedpa"
+      "name": "pariazar",
+      "email": "hamedpa19@gmail.com",
+      "url": "https://github.com/pariazar"
     }
   ],
   "bugs": {
-    "url": "https://github.com/hamedpa/subtranslator/issues/new"
+    "url": "https://github.com/pariazar/subtranslator/issues/new"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hamedpa/subtranslator"
+    "url": "https://github.com/pariazar/subtranslator"
   },
   "dependencies": {
     "@vitalets/google-translate-api": "^7.0.0",
@@ -38,5 +38,4 @@
     "series",
     "subtranslate"
   ]
-    
 }
