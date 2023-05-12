@@ -27,7 +27,7 @@
     "url": "https://github.com/pariazar/subtranslator"
   },
   "dependencies": {
-    "@vitalets/google-translate-api": "^7.0.0",
+    "@vitalets/google-translate-api": "^9.2.0",
     "cli-progress": "^3.10.0",
     "fs": "^0.0.1-security"
   },
